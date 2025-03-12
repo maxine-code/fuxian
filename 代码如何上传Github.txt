@@ -1,0 +1,9 @@
+1. git init 用于在一个目录中创建一个新的 Git 仓库
+
+2.git add * 将所有未被 Git 跟踪的文件或发生更改的文件添加到暂存区
+
+3.git commit -m "two commit' 是一个用于将暂存区的内容提交到 Git 仓库的命令，并附带一个提交信息
+
+4. git remote add origin https://github.com/2869955900/-shap.git 用于将一个远程仓库添加到本地 Git 仓库中
+
+5.git push -u origin master 用于将本地 master 分支的代码推送到远程仓库（即 origin）的命令，同时还会将本地 master 分支设置为跟踪远程 origin 仓库的 master 分支
